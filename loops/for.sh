@@ -19,7 +19,12 @@ do
   echo d in data_file is $d
 done
 
-for d in $(find /etc 2>/dev/null | grep grub)
+for f in $(find /etc 2>/dev/null | grep grub)
 do
   echo grub named things are $f
 done
+
+# Note
+# 2> - error messages
+# dev/null throws the messages away
+# generate files for list of paths that has grub in the name
