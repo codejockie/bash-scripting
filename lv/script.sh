@@ -7,6 +7,7 @@ mkdir "dev" # creates a new directory
 cd "dev" # navigates to the newly created directory
 
 mkdir "learning-bash"
+cd "learning-bash"
 
 touch ".gitignore" # creates a new file - .gitignore
 touch "index.js" # creates a new file - index.js
